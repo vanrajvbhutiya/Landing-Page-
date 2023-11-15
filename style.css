@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body{
+    background-image: url('bg.webp');
+    height:120vh;
+
+}
+header{
+    padding: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.logoBox{
+    display: inline-block;
+    width: 150px;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navBox{
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+    width: 600px;
+
+}
+.navBox > a{
+    color:white;
+    margin:20px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.navBox > a:hover {
+    color: salmon;
+}
+#homei {
+    color: salmon;
+}
+.heading {
+    color:salmon ;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 60px;
+    width: 500px;
+    left: 70px;
+}
+.heading+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px;
+    position: relative;
+    width: 500px;
+    left: 70px; 
+}
+.heading+h3+p{
+    color: white;
+    font-family: cursive;
+    position: relative;
+    width: 400px;
+    word-spacing: 3px;
+    top: 20px;
+    left: 70px;
+    /* font-style: italic; */
+}
+.btn{
+    width:120px;
+    padding:15px;
+    border:2px solid salmon;
+    background-color: salmon;
+    color: rgb(12, 12, 12);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    cursor: pointer;
+    left: 70px;
+    top: 20px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.btn:hover {
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+}
+footer {
+    color: white;
+    /* border: 2px solid red; */
+    position: fixed;
+    bottom: 0;
+    font-family: 'Roboto';
+}
